@@ -10,13 +10,14 @@ public class Quiz6 {
         if (s.size() != f.size()) {
             return false;
         }
-        for (int i =0; i<s.size(); i++) {
-            if (s != f) {
-                return false;
+
+            if (s.equals(f)) {
+                return true;
 
             }
-            }
-        return true;
+
+        return false;
+
         }
 
 
@@ -27,11 +28,13 @@ public class Quiz6 {
         s.add("b");
         s.add("c");
         s.add("d");
+        s.add("b");
         System.out.println(s);
 
         ArrayList<String> f = new ArrayList<>();
         f.add("a"); f.add("b");
         f.add("c");
+        f.add("d");
         f.add("d");
         System.out.println(f);
         System.out.println(isListsEqual(s, f));
