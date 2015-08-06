@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Nataliia on 05.08.2015.
@@ -10,16 +11,11 @@ public class Quiz6 {
         if (s.size() != f.size()) {
             return false;
         }
-
             if (s.equals(f)) {
                 return true;
-
             }
-
         return false;
-
         }
-
 
 
     public static void main (String[] args){
@@ -38,6 +34,12 @@ public class Quiz6 {
         f.add("d");
         System.out.println(f);
         System.out.println(isListsEqual(s, f));
+
+        ArrayList<String> s1 = new ArrayList<>();
+        ArrayList<String> s2 = new ArrayList<>();
+        System.out.println(isListsEqual(s1, s2));
+
+
 
 
 
