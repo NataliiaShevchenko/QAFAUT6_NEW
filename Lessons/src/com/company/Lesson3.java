@@ -9,7 +9,7 @@ public class Lesson3 {
         System.out.println(a);
 
         int []b = {1,10,-20,30};
-        for (int i: b){
+        for (int i: b){            //оператор цикла FOR может записываться так.
             System.out.println(i);
         }
 
