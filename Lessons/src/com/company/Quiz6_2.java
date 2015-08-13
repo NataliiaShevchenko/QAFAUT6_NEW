@@ -27,9 +27,15 @@ public class Quiz6_2 {
         }
     }
 
-    public static String hello (int i){
-        return hello(i);
-    }
+   // public static String hello (int i){
+       // return hello(i);
+       // if (a.equals(hello)){
+          //  System.out.println("Test PASSED");
+        //}else {
+        //    System.out.println("Test FAILED");
+       // }
+
+    //}
 
 
 
@@ -55,7 +61,7 @@ public class Quiz6_2 {
         // Test PASSED
         test("Hello Good Men", hello("Good Men"));
         // Test PASSED
-        //test("Hello to all 14 students!", hello(14));  //перегрузка методов
+       // test("Hello to all 14 students!", hello(14));  //перегрузка методов
         // Test PASSED
         //test("Hello student!", hello(1));
         // Test PASSED
